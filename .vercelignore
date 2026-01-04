@@ -1,0 +1,42 @@
+# Arquivos de ambiente locais (nunca enviar para Vercel)
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+*.env
+*.env.*
+
+# Arquivos de configuração sensíveis
+configurar-vertex.ps1
+verificar-config-vertex.ps1
+CONFIGURACAO_VERTEX_AI.md
+RESOLVER_ERRO_403.md
+
+# Scripts locais (não necessários no deploy)
+scripts/
+
+# Arquivos de desenvolvimento
+.vscode/
+.idea/
+*.log
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Arquivos temporários
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# Node modules (será instalado pela Vercel)
+node_modules/
+
+# Build local (será gerado pela Vercel)
+dist/
+dist-ssr/
+
+
