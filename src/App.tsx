@@ -193,7 +193,7 @@ function App() {
               
               <div className="space-y-6 text-muted-foreground leading-relaxed text-lg">
                 <p>
-                  Sou advogada graduada pela <strong>Faculdade Baiana de Direito e Gestão</strong> (2024) e pós-graduanda em <strong>Processo Civil Lato Sensu pela PUC-RS</strong>.
+                  Sou advogada graduada pela <strong>Faculdade Baiana de Direito e Gestão</strong> (2024) e pós-graduada em <strong>Processo Civil Lato Sensu pela PUC-RS</strong> (2025).
                 </p>
                 <p>
                   Construo minha trajetória marcada pelo rigor técnico e pelo compromisso inegociável com a ética profissional. Minha atuação é guiada pela atualização constante e pela busca incansável das melhores soluções jurídicas para cada caso, seja na esfera consultiva ou contenciosa.

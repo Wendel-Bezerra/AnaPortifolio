@@ -53,7 +53,14 @@ vercel --prod
 
 ```env
 RESEND_API_KEY=re_xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-RESEND_FROM_EMAIL=onboarding@resend.dev
+
+# ⚠️ IMPORTANTE: O domínio resend.dev só permite enviar para SEU PRÓPRIO e-mail!
+# Para enviar para outros destinatários, você DEVE configurar um domínio verificado.
+# Acesse: https://resend.com/domains e configure seu domínio antes do deploy!
+#
+# Para PRODUÇÃO (obrigatório usar domínio verificado):
+RESEND_FROM_EMAIL=contato@anaceciliabatista.adv.br
+
 CONTACT_TO_EMAIL=contato@anaceciliabatista.adv.br
 SITE_NAME=Ana Cecília & José Olavo
 ```
@@ -68,7 +75,8 @@ ONBOARDING_TO_EMAIL=seu-email@exemplo.com
 
 **Importante:**
 - Configure para **Production**, **Preview** e **Development** (ou apenas Production se preferir)
-- Use o email de remetente verificado no Resend para produção
+- **OBRIGATÓRIO:** Use um email de domínio verificado no Resend para produção (não use `resend.dev`)
+- Siga o guia: https://resend.com/docs/dashboard/domains/introduction
 - O `ONBOARDING_TEST_TOKEN` deve ser uma string longa e aleatória (ex: use `openssl rand -hex 32`)
 
 ### 4. Configurações do Projeto na Vercel

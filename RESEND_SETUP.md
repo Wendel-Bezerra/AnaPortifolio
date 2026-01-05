@@ -9,9 +9,15 @@ Configure estas variáveis no seu provedor de deploy (ex.: Vercel → Project Se
 ```env
 RESEND_API_KEY=re_xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
-# Em produção, use um remetente/domínio verificado no Resend.
-# Para testes iniciais, normalmente funciona:
-RESEND_FROM_EMAIL=onboarding@resend.dev
+# ⚠️ IMPORTANTE: O domínio resend.dev só permite enviar para SEU PRÓPRIO e-mail!
+# Para enviar para outros destinatários, você DEVE configurar um domínio verificado.
+# Acesse: https://resend.com/domains
+# 
+# Para TESTES (apenas para seu próprio e-mail):
+# RESEND_FROM_EMAIL=onboarding@resend.dev
+#
+# Para PRODUÇÃO (obrigatório usar domínio verificado):
+RESEND_FROM_EMAIL=contato@anaceciliabatista.adv.br
 
 # Para onde vai o e-mail de aviso do formulário:
 CONTACT_TO_EMAIL=contato@anaceciliabatista.adv.br
